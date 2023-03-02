@@ -1,0 +1,170 @@
+body{
+    padding:0;
+    margin:0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 2% 10%;
+    position: fixed;
+    width: 80%;
+    z-index: 4;
+}
+.navbar a{
+    font-size: 2rem;
+    text-decoration: none;
+    /* font-style: italic; */
+    font-weight: 700;
+    color: white;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    list-style: none;
+    /* margin:0 2%; */
+    padding:0 5%;
+    font-size: 1.2rem;
+    color: white;
+}
+.navbar li:hover{
+    color: aqua;
+}
+
+.top{
+    text-align: center;
+    background-color:#b1b2ff;
+
+}
+.upper-cloud{
+    margin-top: 10%;
+    position: relative;
+    left: 18%;
+}
+.title-heading{
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    line-height: 0;
+    padding-top: 2%;
+    color: #212529;
+}
+.para{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color:#5020cc ;
+}
+.lower-cloud{
+    position: absolute;
+    left: 21%;
+}
+.middle{
+    background-color: #b1b2ff;
+    text-align: center;
+}
+.profile{
+    width: 19%;
+}
+.hello{
+    font-size: 2rem;
+}
+.my{
+    font-size: 1.5rem;
+}
+hr{
+    border-top:8px dotted #B1B2FF;
+    width: 88px;
+    text-align: center;
+    /* margin: 85px auto; */
+}
+.middle2{
+    text-align: center;
+    background-color:#b1b2ff ;
+}
+.skill{
+    font-size: 3rem;
+}
+.skill:hover{
+    color: rgb(247, 23, 23);
+}
+.sw{
+    font-size: 2rem;
+}
+.c{
+    font-size: 1.5rem;
+}
+.skkill-des{
+    display: flex;
+}
+.l{
+    width: 25%;
+}
+hr{
+    border-top:8px dotted #B1B2FF;
+    width: 88px;
+    text-align: center;
+}
+.middle3{
+    text-align: center;
+    background-color:#b1b2ff ;
+}
+.hobbies{
+    font-size: 3rem;
+}
+.hobbies:hover{
+    color: red;
+}
+.h{
+    font-size: 1.5rem;
+}
+.logo{
+    width: 25%;
+}
+hr{
+    border-top:8px dotted #B1B2FF;;
+    width: 88px;
+    text-align: center;
+}
+.get{
+    text-align: center;
+    background-color:#b1b2ff  ;
+}
+.g{
+    font-size: 3rem;
+    color:darkviolet;
+}
+.g:hover{
+    color:aqua;
+}
+.p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color:#212529;
+}
+.buttons{
+    width: 10%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-family:'Roboto', sans-serif;
+    border: 0;
+    font-size: 1rem;
+    margin-top: 4%;
+    box-shadow: 2px 2px red;
+    border-radius: 8px;
+}
+.buttons:hover{
+    color:black;
+    background-color: white;   
+}
+.contact{
+    background-color: darksalmon;
+    text-align: center;
+    padding: 8% 0;
+}
+.icons{
+    font-size: 2rem;
+    padding: 10% 3%;
+    margin-top: 5%;
+}
